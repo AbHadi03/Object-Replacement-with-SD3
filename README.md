@@ -1,7 +1,3 @@
-Here’s a detailed `README.md` file template for your project. Replace placeholders with specific details relevant to your implementation.
-
----
-
 # **Image Object Replacement with Stable Diffusion and Auto-Generated Masks**
 
 This project demonstrates object replacement in images using **Stable Diffusion 2.1 Base** combined with auto-generated masks. The model processes an input image, identifies objects (e.g., a car), and replaces them with new content specified via a prompt. The solution utilizes advanced techniques in **image segmentation**, **mask generation**, and **text-to-image synthesis**.
