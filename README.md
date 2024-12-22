@@ -73,37 +73,6 @@ python main.py
 
 ---
 
-## **Project Structure**
-```plaintext
-.
-├── main.py                 # Main script to run the project
-├── README.md               # Project documentation
-├── requirements.txt        # Python dependencies
-├── notebooks/              # Colab notebooks
-│   └── object_replacement.ipynb
-├── images/                 # Example input and output images
-│   ├── input.jpg
-│   ├── mask.jpg
-│   ├── output.jpg
-└── utils/                  # Helper functions for preprocessing and visualization
-```
-
----
-
-## **Results**
-Here are sample results demonstrating the object replacement process:
-
-### **Input Image**
-![Input Image](images/input.jpg)
-
-### **Generated Mask**
-![Generated Mask](images/mask.jpg)
-
-### **Output Image**
-![Output Image](images/output.jpg)
-
----
-
 ## **Known Issues**
 1. **Empty Mask Results**: The segmentation model may fail to detect objects if the prompt is too vague or the image lacks clarity.
    - **Solution**: Refine the prompt or use a higher-quality image.
